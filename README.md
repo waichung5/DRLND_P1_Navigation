@@ -41,6 +41,12 @@ Navigation.ipynb - Jupyter Notebook to train the DQN agent
 dqn_agent.py - the agent class
 model.py - the DQN model
 checkpoint_dqn.pth - saved model weights of the DQN model
+checkpoint_dueling.pth - saved model weights of the DQN model
 Report.pdf - description of the implementation
 
-Follow the instructions in `Navigation.ipynb` to get started with training your own agent!  
+Follow the instructions in `Navigation.ipynb` to get started with training your own agent
+- steps 1 to 2 to setup Udacity-ML environment for banana navigation
+- step 3 to test environment will random actions
+- step 4 to train the agent (select network DQN or Dueling DQN at step 4.1)
+- step 5 to watch the trained agent to play the game
+
