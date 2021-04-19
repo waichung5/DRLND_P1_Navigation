@@ -5,8 +5,7 @@
 # Project 1: Navigation
 
 ### Introduction
-This is Project 1 of the **Udacity Deep Reinforcement Learning Nanodegree** 
-This project is to train an agent with DQN learning to navigate (and collect bananas!) in a large, square world.  
+This is Project 1 of the **Udacity Deep Reinforcement Learning Nanodegree**. This project is to train an agent with DQN learning to navigate (and collect bananas!) in a large, square world.  
 
 ![Trained Agent][image1]
 
