@@ -5,8 +5,7 @@
 # Project 1: Navigation
 
 ### Introduction
-
-For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.  
+This is Project 1 of the **Udacity Deep Reinforcement Learning Nanodegree**. This project is to train an agent with DQN learning to navigate (and collect bananas!) in a large, square world.  
 
 ![Trained Agent][image1]
 
@@ -35,21 +34,18 @@ The task is episodic, and in order to solve the environment, your agent must get
 2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file. 
 
 ### Instructions
+The project consists of 6 files:
 
-Follow the instructions in `Navigation.ipynb` to get started with training your own agent!  
+- Navigation.ipynb - Jupyter Notebook to train the DQN agent
+- dqn_agent.py - the agent class
+- model.py - the DQN model
+- checkpoint_dqn.pth - saved model weights of the DQN model
+- checkpoint_dueling.pth - saved model weights of the DQN model
+- Report.pdf - description of the implementation
 
-### (Optional) Challenge: Learning from Pixels
+Follow the instructions in `Navigation.ipynb` to get started with training your own agent
+- steps 1 to 2 to setup Udacity-ML environment for banana navigation
+- step 3 to test environment will random actions
+- step 4 to train the agent (select network DQN or Dueling DQN at step 4.1)
+- step 5 to watch the trained agent to play the game
 
-After you have successfully completed the project, if you're looking for an additional challenge, you have come to the right place!  In the project, your agent learned from information such as its velocity, along with ray-based perception of objects around its forward direction.  A more challenging task would be to learn directly from pixels!
-
-To solve this harder task, you'll need to download a new Unity environment.  This environment is almost identical to the project environment, where the only difference is that the state is an 84 x 84 RGB image, corresponding to the agent's first-person view.  (**Note**: Udacity students should not submit a project with this new environment.)
-
-You need only select the environment that matches your operating system:
-- Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana_Linux.zip)
-- Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana.app.zip)
-- Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana_Windows_x86.zip)
-- Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana_Windows_x86_64.zip)
-
-Then, place the file in the `p1_navigation/` folder in the DRLND GitHub repository, and unzip (or decompress) the file.  Next, open `Navigation_Pixels.ipynb` and follow the instructions to learn how to use the Python API to control the agent.
-
-(_For AWS_) If you'd like to train the agent on AWS, you must follow the instructions to [set up X Server](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above.
