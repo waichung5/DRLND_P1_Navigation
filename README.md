@@ -37,12 +37,12 @@ The task is episodic, and in order to solve the environment, your agent must get
 ### Instructions
 The project consists of 6 files:
 
-Navigation.ipynb - Jupyter Notebook to train the DQN agent\
-dqn_agent.py - the agent class\
-model.py - the DQN model\
-checkpoint_dqn.pth - saved model weights of the DQN model\
-checkpoint_dueling.pth - saved model weights of the DQN model\
-Report.pdf - description of the implementation\
+- Navigation.ipynb - Jupyter Notebook to train the DQN agent
+- dqn_agent.py - the agent class
+- model.py - the DQN model
+- checkpoint_dqn.pth - saved model weights of the DQN model
+- checkpoint_dueling.pth - saved model weights of the DQN model
+- Report.pdf - description of the implementation
 
 Follow the instructions in `Navigation.ipynb` to get started with training your own agent
 - steps 1 to 2 to setup Udacity-ML environment for banana navigation
