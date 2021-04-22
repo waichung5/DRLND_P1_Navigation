@@ -38,7 +38,7 @@ The task is episodic, and in order to solve the environment, your agent must get
     `pip install -r requirements.txt`
 
 ### Instructions
-The project consists of 6 files:
+The project consists of 7 files:
 
 - Navigation.ipynb - Jupyter Notebook to train the DQN agent
 - dqn_agent.py - the agent class
@@ -46,6 +46,7 @@ The project consists of 6 files:
 - checkpoint_dqn.pth - saved model weights of the DQN model
 - checkpoint_dueling.pth - saved model weights of the DQN model
 - Report.pdf - description of the implementation
+- requirements.txt - dependencies 
 
 Follow the instructions in `Navigation.ipynb` to get started with training your own agent
 - steps 1 to 2 to setup Udacity-ML environment for banana navigation
